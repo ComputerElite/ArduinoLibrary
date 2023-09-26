@@ -70,7 +70,7 @@ void loop() {
     }
     isTriggered = true;
   }
-  if(millis() - lastTriggerTime > 3000 && isTriggered) {
+  if(millis() - lastTriggerTime > 2000 && isTriggered) {
       colorA = currentColor;
       colorB = 0xFFFFFF;
       lastTriggerTime = millis();
